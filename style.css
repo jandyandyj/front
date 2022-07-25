@@ -1,0 +1,726 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+*{box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    font-size: 16px;
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.hambur{
+    display: none;
+}
+
+
+nav {
+
+    
+
+ 
+   
+ height: 100px;
+    gap: 224px;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    left: 0px;
+    top: 0px;
+   
+
+}
+
+.start { 
+    width: 350px;
+       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end {
+
+    width: 350px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid {display: flex;
+    flex-direction: row;
+
+    width: 700px;
+   justify-content: center;
+    align-items: center;
+}
+
+ul{width: 500px;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+}
+
+.ulc {
+    width: 360px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    font-size: 1.1rem;
+   
+}
+
+li{width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+main{ width: 1440px;
+    display: flex;
+}
+
+section{
+max-width: 1440px;
+    display: flex;
+
+}
+.izq{display: flex;
+    width: 700px;
+    flex-direction: column;
+    
+}
+
+.der{display: flex;
+    width: 700px;
+    flex-direction: column;
+    
+}
+
+
+.fotenmain {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.chat {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.eldijo1 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.eldijo2 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.eldijo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+}
+
+.comentarios {
+
+
+     color:  #B3B2B7;
+  font-size: 1rem;
+
+  margin-right: 4rem;
+    display: flex;
+    margin-left: 7rem;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+
+
+
+
+footer {
+    
+    max-width: 1440px;
+    display: flex;
+    
+    
+    
+
+}
+
+.letrab {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.white {
+ 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 18rem;
+    margin-left: 16rem;
+
+}
+
+.white2 {
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem,15rem,10rem,15rem;
+}
+
+.foottop {
+    display: flex;
+    height: 200px;
+    background-color: orangered;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px
+}
+
+
+
+.compartir {
+   max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+
+ margin: 3rem,5rem;
+color:white;
+}
+
+.compartir2 {
+    max-width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 200px;
+    margin: 3rem,5rem;
+color:white;
+}
+
+.compartir3 {
+    max-width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem,5rem;
+    height: 200px;
+
+color:white;
+}
+
+.flex {
+height: 100px;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.flex2 {
+height: 100px;
+    display: flex;
+    justify-content:center ;
+    align-items: flex-end;
+    
+}
+
+.fotenmain2 {
+max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footbot {
+
+    color:white;
+    display: flex;
+    height: 200px;
+    background-color: black;
+justify-content: space-between;
+    align-items: center;
+max-width: 1440px;   
+}
+
+.forro {
+   
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+
+    height: 200px;
+
+}
+
+.logocentrado {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.listacentrada{
+
+    display: flex;
+ margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.cuidaboton{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+margin: 2.5rem;
+width: 100%;
+
+}
+.police {
+
+    background-color: #F3603B;
+    color: ghostwhite;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 134px;
+height: 44px;
+border: none;
+}
+
+
+
+.footboton {
+
+    display: flex;
+justify-content: center;
+align-items: center;
+margin: 2.5rem;
+width: 100%;
+
+}
+
+.police2 {
+
+    background-color: ghostwhite;
+    color: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 134px;
+height: 44px;
+border: none;
+
+
+}
+
+.police3 {
+
+    background-color: ghostwhite;
+    color: #B3B2B7;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 190px;
+height: 44px;
+border: none;
+}
+
+.police4 {
+    margin-right: 4rem;
+margin-left: 0.5rem;
+    background-color: #F3603B;
+    color: ghostwhite;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 70px;
+height: 44px;
+border: none;
+
+}
+
+.dizq{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    flex-direction: column;
+    padding: 10rem 5rem 5rem 5rem 
+;
+margin-top: 4rem;
+margin-left: 2rem;
+
+}
+
+.dder{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    flex-direction: column;
+    padding: 5rem;
+    margin-top: 10rem;
+
+}
+
+
+h2 {
+
+    font-size: 3.6rem;
+    color: 
+    #232C50;
+}
+
+
+h3 {
+
+    font-size: 2.6rem;
+    color: 
+    #232C50;
+}
+
+
+div h4 {
+ display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+text-align: left;
+    font-size: 1rem;
+    color:black;
+    padding-right: 8rem;
+    
+}
+
+.quilombo{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 5rem;
+
+}
+
+.numerito{
+    background-color: #F3603B;
+    border-radius: 50px;
+}
+.texto {
+  color:  #B3B2B7;
+  font-size: 1rem;
+
+  margin-right: 8rem;
+    display: flex;
+    margin-left: 8rem;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+article {
+
+    display: flex;
+width: 100%;
+}
+
+.listaquenoeralista{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.numerito1::before
+{
+    margin-right: 2rem;
+    display: flex;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    Content:"01";
+    color: white;
+    padding: 0.2rem;
+    height: 1.5rem;
+    width: 2.5rem;
+    border-radius: 30px;
+    background-color: #F3603B;
+
+}
+
+.numerito2::before
+{
+    margin-right: 2rem;
+    display: flex;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    Content:"02";
+    color: white;
+    padding: 0.2rem;
+    height: 1.5rem;
+    width: 2.5rem;
+    border-radius: 30px;
+    background-color: #F3603B;
+
+
+}
+.numerito3::before
+{
+    margin-right: 2rem;
+    display: flex;
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    Content:"03";
+    color: white;
+    padding: 0.2rem;
+    height: 1.5rem;
+    width: 2.5rem;
+    border-radius: 30px;
+    background-color: #F3603B;
+
+
+
+}
+
+
+
+.numerito1{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.numerito2{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-top: 3rem;
+
+}
+
+.numerito3{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-top: 3rem;}
+
+.titulofotenmain{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+}
+.img {
+
+    width: 70px;
+height: 70px;
+}
+
+
+/* responsive */
+
+
+@media (max-width:376px){
+*{border:solid 2px green;}
+    .hambur{
+        display: block;
+        font-size: 3rem;
+        color: #232C50;
+    }
+
+    body{
+
+        max-width: 375px;
+    }
+    header, main section, section, footer section{
+        align-items: center;
+        padding: 20px;
+     
+    
+    }
+
+    main{width: 100%;}
+   
+
+  
+    
+    section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mid{
+        display: none;
+    }
+
+    .end {
+        display: none;
+    }
+
+ body{display: flex;
+flex-direction: column;}
+
+
+main section{display: flex;
+    flex-direction:column-reverse
+
+}
+/*aca tuve que usar martillo porque tenia divido en dos mi main, fue lo unico que se me ocurrio*/
+.der {position:relative}
+.listaquenoeralista {position:relative;
+bottom:-900px}
+
+.izq{ position: relative;
+}
+.dizq {position:relative;
+    top:-500px}
+
+.cuidaboton{
+    display: flex;
+justify-content: center;
+align-items: center;
+
+margin-top: 5rem;
+
+}
+
+    .titulofotenmain{
+        align-items: center;
+   
+    background-color: black;
+    }
+
+
+.fotenmain{background-color: green;
+    align-items: center;
+    width: 100%;
+   
+
+}
+
+.chat {
+
+  
+}
+
+    .eldijo1 {
+        display: flex;
+        flex-direction: column;
+      width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .eldijo2 {
+        display: none;
+       
+    }
+    .eldijo3 {
+        display: none;
+        
+    }
+
+
+footer{ display: flex;
+    justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        
+}
+
+.footbot{
+    color:white;
+    display: flex;
+   
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
+.foottop{
+    display: flex;
+
+    background-color: orangered;
+    align-items: center;
+    width: 100%;
+
+}
+
+.fotenmain2{
+    display: flex;
+    width: 100%;
+}
+
+
+
+nav {
+   
+   
+      
+       justify-content: space-between;
+       align-items: center;
+       width: 100vw;
+       left: 0px;
+       top: 0px;
+      
+   
+   }
+
+
+}
